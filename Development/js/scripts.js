@@ -17,17 +17,21 @@ console.log("5*age")
 
 // السؤال الثاني
 // 1
-let f = ["الرسم، البرمجه، ١٨, التزلج"]
+let f = ["الرسم, البرمجه, التزلج"]
 
 // 2
-f.push("18")
+f.push(18)
+f[4] = 16
+console.log(f)
+console.log(f.length)
 // 3
 f.pop()
+console.log(f)
 // 4
 
 let u = {
     name: "web",
-    k: "javascrept" ,
+    like: "javascrept" ,
  }
 // 5
 let h = ["نانسي", "موضي، ", "حسين","رهف"]
