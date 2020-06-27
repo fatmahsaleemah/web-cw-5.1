@@ -4,19 +4,20 @@ const name = "fatmah";
 // 2
 let age = 18;
 // 3 and 4
-
-Console.log(name+" "+age)
+console.log(
+    "انا"+
+    "فاطمه"+
+    "و عمري"+
+    " "+
+    "18")
 // 5 and 6
-Console.log("انا"+" "+"فاطمه")
-// 5 and 6
-let  counter = 18;
-counter = counter * 5
-Console.log("counter")
+let  age5 = 5*age;
+console.log("5*age")
 // -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
 
 // السؤال الثاني
 // 1
-let f = ["الرسم، البرمجه، ١٨"]
+let f = ["الرسم، البرمجه، ١٨, التزلج"]
 
 // 2
 f.push("18")
@@ -32,9 +33,9 @@ let u = {
 let h = ["نانسي", "موضي، ", "حسين","رهف"]
 
 // 6
-Console.log(u.name)
+console.log(u.name)
 // 7
-Console.log(f[0])
+console.log(f[0])
 // -.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
 
 // البونص
