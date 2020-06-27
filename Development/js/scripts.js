@@ -32,6 +32,7 @@ console.log(f)
 let u = {
     name: "web",
     like: "javascrept" ,
+
  }
 // 5
 s["TA"] = ["نانسي", "موضي، ", "حسين","رهف"]
@@ -47,14 +48,18 @@ console.log(s["TA"][0])
 // البونص
 // 1
 
-student["sayHello"] = function() {
+u["sayHello"] = function() {
     console.log("مرحبا")
 
 }
-console.log(student)
+u["age"] = function(age){
+    age *= 5;
+    console.log(age)
+}
+console.log(u)
 
 
 // 2
-student["sayHello"]()
-student["sayHello"]()
+u["sayHello"]()
+u["age"]()
 // console results => console.png
