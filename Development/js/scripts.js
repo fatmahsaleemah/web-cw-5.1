@@ -47,10 +47,14 @@ console.log(s["TA"][0])
 // البونص
 // 1
 
-function f(p1,p2){
-    return p1*p2
-}
-document.getElementById("demo").innerHTML = myFunction(انا, مبرمجه);
-// 2
+student["sayHello"] = function() {
+    console.log("مرحبا")
 
+}
+console.log(student)
+
+
+// 2
+student["sayHello"]()
+student["sayHello"]()
 // console results => console.png
